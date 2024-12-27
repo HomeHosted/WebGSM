@@ -10,7 +10,7 @@ RUN pip install -r requirements.txt
 COPY app .
 
 # Expose Flask port
-EXPOSE 5000
+EXPOSE 8082
 
 # Run the server
 CMD ["python", "backend/server.py"]
